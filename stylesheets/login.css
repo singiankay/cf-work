@@ -1,0 +1,51 @@
+html,body {
+	font-family: 'Open Sans', serif;
+	font-size: 14px;
+	font-weight: 300;
+}
+.login-notification {
+	position: fixed;
+	right: 20px;
+	top: 20px;
+	z-index: 9;
+}
+.is-fullheight {
+	margin-top: 5px;
+}
+.hero.is-success {
+	background: #F2F6FA;
+}
+.hero .nav, .hero.is-success .nav {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.notification-box {
+	min-height: 30px;
+}
+.box {
+	margin-top: 5rem;
+}
+.avatar {
+	margin-top: -70px;
+	padding-bottom: 20px;
+}
+.avatar img {
+	padding: 5px;
+	background: #fff;
+	border-radius: 50%;
+	-webkit-box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+	box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+	max-height: 128px;
+}
+input {
+	font-weight: 300;
+}
+p {
+	font-weight: 700;
+}
+p.subtitle {
+	padding-top: 1rem;
+}
+p.login-name {
+	min-height: 20px;
+}

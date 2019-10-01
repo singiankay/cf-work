@@ -1,0 +1,111 @@
+[v-cloak] {
+	display: none;
+}
+
+.is-danger .multiselect__tags {
+  border-color: #ff3860;
+}
+
+template {
+  display: none !important;
+}
+
+.wms-notification {
+	position: fixed;
+	right: 20px;
+	top: 60px;
+	z-index: 9;
+}
+.table-nav {
+	display: block;
+	padding: 1.25rem 0;
+}
+.field.dropdown-item{
+  padding: 0px;
+  margin-bottom: 0px;
+}
+.field.dropdown-item input{
+  border: none;
+  border-radius: 0px;
+  box-shadow: none;
+  margin-bottom: 0px;
+}
+div.spacing-container {
+	padding: 1.25rem 0;
+}
+.field-data {
+	flex-basis: 0 !important;
+	flex-grow: 3 !important;
+}
+.blue-sideborder {
+	border-color: #209cee !important;
+}
+div.right-sidebar-sticky {
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 56px;
+}
+div.sticky:before,
+div.sticky:after {
+    content: '';
+    display: table;
+}
+.shipment-table {
+	background: #ffffff;
+	display: table;
+	border-spacing: 1px;
+}
+.shipment-table > thead {
+	display: table-header-group;
+	vertical-align: middle;
+	border-color: inherit;
+	padding: .25em .5em;
+}
+.shipment-table > thead > tr {
+	display: table-row;
+	vertical-align: inherit;	
+}
+.shipment-table > thead > tr > th {
+	display: table-cell;
+	padding: .25em .5em;
+}
+.shipment-table tr:first-child th:nth-child(1) {
+	border-left: 1px solid #209cee !important;
+}
+.shipment-table tr:first-child th:nth-child(3) {
+	border-right: 1px solid #209cee !important;
+}
+.shipment-table tr th, .shipment-table tr td {
+	background-color: #fff;
+	border-left: 1px solid #dbdbdb !important;
+	border-bottom: 1px solid #dbdbdb !important;
+}
+.shipment-table tr:nth-child(2) th:nth-child(5), .shipment-table tr:nth-child(3) th:nth-child(9), .shipment-table tr:nth-child(4) th:nth-child(10), .shipment-table tr:first-child td:nth-child(10) {
+	border-right: 1px solid #dbdbdb !important;
+}
+
+.modal-table {
+/*	display: flex;
+	flex-direction: column;*/
+	display: block;
+	float: left;
+}
+.modal-table-row {
+	display: inherit;
+	width: 100%;
+	/*display: flex;*/
+/*	flex-direction: row;
+	justify-content: space-between;*/
+}
+.modal-table-item-type {
+	width: 15%;
+}
+.modal-table-model_no {
+	width: 20%;
+}
+.modal-table-model_name {
+	width: 45%;
+}
+.modal-table-qty {
+	width: 20%;
+}

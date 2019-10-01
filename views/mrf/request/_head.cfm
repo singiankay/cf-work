@@ -1,0 +1,12 @@
+<cfoutput>
+#stylesheetLinkTag('bulma-tooltip.min')#
+#stylesheetLinkTag('bulma-checkradio.min')#
+#stylesheetLinkTag('vue-multiselect.min')#
+#javascriptIncludeTag('polyfills/object-assign-polyfill.min')#
+#javaScriptIncludeTag("stickyfill.min")#
+#javaScriptIncludeTag("vue-scrollactive.min")#
+#javaScriptIncludeTag("vue-toasted.min")#
+#javascriptIncludeTag('vue-multiselect.min')#
+#javascriptIncludeTag('vuejs-datepicker.min')#
+#javascriptIncludeTag('vee-validate')#
+</cfoutput>

@@ -1,0 +1,9 @@
+<cfoutput>
+	#stylesheetLinkTag('bulma-tooltip.min')#
+	#stylesheetLinkTag('bulma-checkradio.min')#
+	#styleSheetLinkTag('vue-multiselect.min')#
+	#javascriptIncludeTag('vue-multiselect.min')#
+	#javaScriptIncludeTag("stickyfill.min")#
+	#javaScriptIncludeTag("vue-scrollactive.min")#
+	#javaScriptIncludeTag("vue-toasted.min")#
+</cfoutput>
